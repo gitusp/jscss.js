@@ -1,6 +1,7 @@
 var jscss = (function(){
 	var ua = navigator.userAgent,
-		vendorPrefix = false;
+		vendorPrefix = false,
+		oldIE = false;
 
 	if ( /Firefox\/(\d+)/.test( ua ) ) { 
 		if ( RegExp.$1 >= 4 ) { 
@@ -10,6 +11,9 @@ var jscss = (function(){
 	else if ( ua.indexOf( 'AppleWebKit' ) != -1 ) { 
 		vendorPrefix = '-webkit-';
 	}   
+	else if ( /MSIE (7|8)/.test( ua ) ) { 
+		oldIE = true;
+	}
 	else if ( ua.indexOf( 'MSIE 9' ) != -1 ) { 
 		vendorPrefix = '-ms-';
 	}
@@ -31,9 +35,15 @@ var jscss = (function(){
 		// tree to str
 		var style = document.createElement( 'style' ),
 			result = tree2str( root );
-		style.type = 'text/css';
-		style.innerHTML = result;
+
+		if ( !oldIE ) {
+			style.innerHTML = result;
+		}
 		document.getElementsByTagName( 'head' )[ 0 ].appendChild( style );
+		if ( oldIE ) {
+			style.styleSheet.cssText = result;
+		}
+
 		return result;
 	}
 
