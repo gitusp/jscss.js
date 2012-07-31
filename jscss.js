@@ -1,4 +1,18 @@
 var jscss = (function(){
+	var ua = navigator.userAgent,
+		vendorPrefix = false;
+
+	if ( /Firefox\/(\d+)/.test( ua ) ) { 
+		if ( RegExp.$1 >= 4 ) { 
+			vendorPrefix = '-moz-';
+		}   
+	}   
+	else if ( ua.indexOf( 'AppleWebKit' ) != -1 ) { 
+		vendorPrefix = '-webkit-';
+	}   
+	else if ( ua.indexOf( 'MSIE 9' ) != -1 ) { 
+		vendorPrefix = '-ms-';
+	}
 
 	return jscss;
 	
@@ -160,15 +174,25 @@ var jscss = (function(){
 
 			// vendor prefix
 			definition = definition.replace( /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g , function ( a , prop , val ) {
-				return prop + ':' + val + ';' + '-webkit-'  + prop + ':' + val + ';';
+				if ( vendorPrefix ) {
+					return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
+				}
+				else {
+					return '';
+				}
 			} );
 			definition = definition.replace( /([^:;]*?)\s*:\s*-\*-([^:;]*?)\s*;/g , function ( a , prop , val ) {
-				return prop + ':' + val + ';' + prop + ':' + '-webkit-'  + val + ';';
+				if ( vendorPrefix ) {
+					return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
+				}
+				else {
+					return '';
+				}
 			} );
 
 			// enhance
 			definition = definition.replace( /\+\+(.*?;)/g , function ( a , m ) {
-				if ( true ) {
+				if ( vendorPrefix ) {
 					return m;
 				}
 				return '';
