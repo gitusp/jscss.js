@@ -1,4 +1,3 @@
 jscss.js
 ========
-
-css meta language
+http://run.omoch.in/process.js/
