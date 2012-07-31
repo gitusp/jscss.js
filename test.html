@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<body>
+
+<div id="wrap">hoge</div>
+
+<script type="text/x-css" name="testcss" id="testcss">
+body {
+	background-color: #f7f7f7;
+
+	.modal {
+		~modal;
+
+		@generic {
+			width: 500px;
+		}
+	}
+}
+
+~modal {
+	&.login {
+		.content {
+			@generic;
+			background: red;
+		}
+	}
+}
+
+~modal {
+	&.register {
+		.content {
+			@generic;
+			background: blue;
+		}
+	}
+}
+</script>
+<script src="jscss.js"></script>
+<script type="text/javascript">
+
+var tpl = document.getElementById( 'testcss' ).innerHTML;
+var d1 = new Date;
+jscss( tpl );
+var d2 = new Date;
+alert( d2 - d1 );
+
+</script>
+</html>
