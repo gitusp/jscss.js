@@ -1,3 +1,9 @@
+/*!
+ * jscss.js
+ *
+ * Copyright 2012, usp
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
 var jscss = (function(){
 	var ua = navigator.userAgent,
 		vendorPrefix = false,
