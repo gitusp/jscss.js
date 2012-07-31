@@ -187,17 +187,13 @@ var jscss = (function(){
 				if ( vendorPrefix ) {
 					return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
 				}
-				else {
-					return '';
-				}
+				return '';
 			} );
 			definition = definition.replace( /([^:;]*?)\s*:\s*-\*-([^:;]*?)\s*;/g , function ( a , prop , val ) {
 				if ( vendorPrefix ) {
 					return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
 				}
-				else {
-					return '';
-				}
+				return '';
 			} );
 
 			// enhance
