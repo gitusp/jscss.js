@@ -1,15 +1,46 @@
 <!DOCTYPE>
 <html>
+<head></head>
 <body>
 
-<div id="wrap">hoge</div>
+<textarea id="before"></textarea>
+<textarea id="after"></textarea>
 
 <script type="text/x-css" name="testcss" id="testcss">
+html , body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 12px;
+}
+#before , #after {
+	width: 200px;
+	background: #fff;
+	margin: 5px;
+	display: block;
+	padding: 15px;
+	-*-box-flex: 1;
+	-*-box-sizing: border-box;
+}
+
+/*
+ *	sample css
+ */
+
+@ggg { // extend definition
+	background:url(ginza.png);
+}
 body {
 	background-color: #f7f7f7;
+	display: -*-box;
 
 	.modal {
-		~modal;
+		~modal;	// the scope marked as "modal"
+
+		position: absolute;
+		border: 2px solid orange;
+		++border: none; // css progressive enhance support
+		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -17,7 +48,10 @@ body {
 	}
 }
 
-~modal {
+~modal { // the scope extracted in "modal"
+	@ggg;
+	background: white;
+
 	&.login {
 		.content {
 			@generic;
@@ -26,7 +60,7 @@ body {
 	}
 }
 
-~modal {
+~modal { // the scope extracted in "modal"
 	&.register {
 		.content {
 			@generic;
@@ -38,11 +72,13 @@ body {
 <script src="jscss.js"></script>
 <script type="text/javascript">
 
-var tpl = document.getElementById( 'testcss' ).innerHTML;
-var d1 = new Date;
-jscss( tpl );
-var d2 = new Date;
-alert( d2 - d1 );
+var tpl = document.getElementById( 'testcss' ).innerHTML,
+	d1 = new Date,
+	result = jscss( tpl ),
+	d2 = new Date;
+document.getElementById( 'before' ).value = '**** before ****\n\n' + tpl;
+document.getElementById( 'after' ).value = '**** after ( processed by jscss ; ' + ( d2 - d1 ) + 'msec ) ****\n\n' + result;
+;
 
 </script>
 </html>

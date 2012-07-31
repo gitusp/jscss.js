@@ -15,10 +15,12 @@ var jscss = (function(){
 		process( str , root , {} );
 
 		// tree to str
-		var style = document.createElement( 'style' );
+		var style = document.createElement( 'style' ),
+			result = tree2str( root );
 		style.type = 'text/css';
-		style.innerHTML = tree2str( root );
+		style.innerHTML = result;
 		document.getElementsByTagName( 'head' )[ 0 ].appendChild( style );
+		return result;
 	}
 
 	function tree2str ( tree ) {
@@ -92,11 +94,13 @@ var jscss = (function(){
 			if ( selector.search( /@(\S*)/ ) != -1 ) {
 				rule.name = RegExp.$1;
 				rule.selectors = [];
-				rule.parent = parent;
 			}
 			else if ( selector.search( /~(\S*)/ ) != -1 ) {
 				rule.selectors = [ '&' ];
-				rule.parent = hash[ RegExp.$1 ];
+				parent = hash[ RegExp.$1 ];
+				if ( !parent ) {
+					throw 'no parent';
+				}
 			}
 			else {
 				selector = selector.replace( /\s+/mg , ' ' );
@@ -105,7 +109,6 @@ var jscss = (function(){
 				selector = selector.replace( /\s?,\s?/g , ',' );
 				selector = selector.replace( /,$/ , '' );
 				rule.selectors = selector.split( ',' );
-				rule.parent = parent;
 			}
 
 			// process block
@@ -172,6 +175,7 @@ var jscss = (function(){
 			} );
 
 			rule.definition = definition;
+			rule.parent = parent;
 
 			// inner block
 			if ( inner ) {
