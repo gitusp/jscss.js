@@ -26,7 +26,7 @@ var jscss = (function(){
 
 	return jscss;
 	
-	function jscss ( str , compile ) {
+	function jscss ( str , compile , type ) {
 		var root;
 
 		// from object code ( fast )
@@ -51,6 +51,8 @@ var jscss = (function(){
 		// tree to str
 		var style = document.createElement( 'style' ),
 			result = tree2str( root );
+
+		style.type = type || 'text/css';
 
 		if ( !oldIE ) {
 			style.innerHTML = result;
