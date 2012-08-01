@@ -7,7 +7,21 @@
 var jscss = (function(){
 	var ua = navigator.userAgent,
 		vendorPrefix = false,
-		oldIE = false;
+		oldIE = false,
+		
+		// regexp
+		regVendorPrefixProp = /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g,
+		regVendorPrefixVal = /([^:;]*?)\s*:\s*-\*-([^:;]*?)\s*;/g,
+		regEnhance = /\+\+(.*?;)/g,
+		regSpaces = /\s+/mg,
+		regSpaceHead = /^\s/,
+		regSpaceTail = /\s$/,
+		regSpaceCommas = /\s?,\s?/g,
+		regCommaTail = /,$/,
+		regExtend = /@(\S*?);/g,
+		regExtendDef = /@(\S*)/,
+		regScope = /~(\S*?);/g,
+		regScopeDef = /~(\S*)/;
 
 	if ( /Firefox\/(\d+)/.test( ua ) ) { 
 		if ( RegExp.$1 >= 4 ) { 
@@ -48,6 +62,11 @@ var jscss = (function(){
 			process( str , root , {} );
 		}
 
+		// use jscss as compiler and it return "Object code"
+		if ( compile ) {
+			minimize( root );
+		}
+
 		// tree to str
 		var style = document.createElement( 'style' ),
 			result = tree2str( root );
@@ -64,7 +83,6 @@ var jscss = (function(){
 
 		// use jscss as compiler and it return "Object code"
 		if ( compile ) {
-			minimize( root );
 			return JSON.stringify( root );
 		}
 	}
@@ -114,11 +132,11 @@ var jscss = (function(){
 			rest = str.substr( end + 1 );
 
 			// process selector
-			if ( selector.search( /@(\S*)/ ) != -1 ) {
+			if ( selector.search( regExtendDef ) != -1 ) {
 				rule.name = RegExp.$1;
 				rule.selectors = [];
 			}
-			else if ( selector.search( /~(\S*)/ ) != -1 ) {
+			else if ( selector.search( regScopeDef ) != -1 ) {
 				rule.selectors = [ '&' ];
 				parent = hash[ RegExp.$1 ];
 				if ( !parent ) {
@@ -126,11 +144,11 @@ var jscss = (function(){
 				}
 			}
 			else {
-				selector = selector.replace( /\s+/mg , ' ' );
-				selector = selector.replace( /^\s/ , '' );
-				selector = selector.replace( /\s$/ , '' );
-				selector = selector.replace( /\s?,\s?/g , ',' );
-				selector = selector.replace( /,$/ , '' );
+				selector = selector.replace( regSpaces , ' ' );
+				selector = selector.replace( regSpaceHead , '' );
+				selector = selector.replace( regSpaceTail , '' );
+				selector = selector.replace( regSpaceCommas , ',' );
+				selector = selector.replace( regCommaTail , '' );
 				rule.selectors = selector.split( ',' );
 			}
 
@@ -147,12 +165,12 @@ var jscss = (function(){
 			}
 
 			// clean up
-			definition = definition.replace( /\s+/mg , ' ' );
-			definition = definition.replace( /^\s/ , '' );
-			definition = definition.replace( /\s$/ , '' );
+			definition = definition.replace( regSpaces , ' ' );
+			definition = definition.replace( regSpaceHead , '' );
+			definition = definition.replace( regSpaceTail , '' );
 
 			// extend
-			definition = definition.replace( /@(\S*?);/g , function ( a , m ) {
+			definition = definition.replace( regExtend , function ( a , m ) {
 				var c = parent ,
 					i ,
 					selectors = rule.selectors;
@@ -176,7 +194,7 @@ var jscss = (function(){
 			} );
 
 			// register
-			definition = definition.replace( /~(\S*?);/g , function ( a , m ) {
+			definition = definition.replace( regScope , function ( a , m ) {
 				hash[ m ] = rule;
 				return '';
 			} );
@@ -213,31 +231,37 @@ var jscss = (function(){
 		}
 
 		// print
-		var i = 0 , str = '';
-		if ( tree.selectors.length && tree.definition ) {
+		var i = 0 , str = '' , definition = tree.definition;
+		if ( tree.selectors.length && definition ) {
 			// vendor prefix
-			tree.definition = tree.definition.replace( /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g , function ( a , prop , val ) {
-				if ( vendorPrefix ) {
-					return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
-				}
-				return '';
-			} );
-			tree.definition = tree.definition.replace( /([^:;]*?)\s*:\s*-\*-([^:;]*?)\s*;/g , function ( a , prop , val ) {
-				if ( vendorPrefix ) {
-					return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
-				}
-				return '';
-			} );
+			if ( tree.vendorPrefixProp ) {
+				definition = definition.replace( regVendorPrefixProp , function ( a , prop , val ) {
+					if ( vendorPrefix ) {
+						return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
+					}
+					return '';
+				} );
+			}
+			if ( tree.vendorPrefixVal ) {
+				definition = definition.replace( regVendorPrefixVal , function ( a , prop , val ) {
+					if ( vendorPrefix ) {
+						return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
+					}
+					return '';
+				} );
+			}
 
 			// enhance
-			tree.definition = tree.definition.replace( /\+\+(.*?;)/g , function ( a , m ) {
-				if ( vendorPrefix ) {
-					return m;
-				}
-				return '';
-			} );
+			if ( tree.enhance ) {
+				definition = definition.replace( regEnhance , function ( a , m ) {
+					if ( vendorPrefix ) {
+						return m;
+					}
+					return '';
+				} );
+			}
 
-			str += tree.selectors.join( ',' ) + '{' + tree.definition + '}\n';
+			str += tree.selectors.join( ',' ) + '{' + definition + '}\n';
 		}
 
 		// child
@@ -254,6 +278,18 @@ var jscss = (function(){
 	function minimize ( tree ) {
 		delete tree.name;
 		delete tree.parent;
+
+		if ( regVendorPrefixProp.test( tree.definition ) ) {
+			tree.vendorPrefixProp = true;
+		}
+		if ( regVendorPrefixVal.test( tree.definition ) ) {
+			tree.vendorPrefixVal = true;
+		}
+		if ( regEnhance.test( tree.definition ) ) {
+			tree.enhance = true;
+		}
+
+		// continue
 		if ( tree.children ) {
 			for ( var i = 0; i < tree.children.length; i++ ) {
 				minimize( tree.children[ i ] );
