@@ -11,8 +11,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -24,14 +22,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -51,8 +46,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -64,14 +57,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -92,8 +82,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -105,14 +93,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -133,8 +118,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -146,14 +129,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -174,8 +154,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -187,14 +165,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -215,8 +190,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -228,14 +201,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -256,8 +226,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -269,14 +237,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -297,8 +262,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -310,14 +273,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -338,8 +298,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -351,14 +309,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -379,8 +334,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -392,14 +345,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -420,8 +370,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -433,14 +381,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -461,8 +406,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -474,14 +417,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -502,8 +442,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -515,14 +453,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -543,8 +478,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -556,14 +489,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -584,8 +514,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -597,14 +525,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -625,8 +550,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -638,14 +561,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -666,8 +586,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -679,14 +597,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -707,8 +622,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -720,14 +633,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -748,8 +658,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -761,14 +669,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -789,8 +694,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -802,14 +705,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -830,8 +730,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -843,14 +741,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -871,8 +766,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -884,14 +777,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -912,8 +802,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -925,14 +813,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -953,8 +838,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -966,14 +849,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -994,8 +874,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1007,14 +885,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1035,8 +910,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1048,14 +921,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1076,8 +946,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1089,14 +957,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1117,8 +982,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1130,14 +993,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1158,8 +1018,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1171,14 +1029,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1199,8 +1054,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1212,14 +1065,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1240,8 +1090,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1253,14 +1101,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1281,8 +1126,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1294,14 +1137,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1322,8 +1162,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1335,14 +1173,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1363,8 +1198,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1376,14 +1209,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1404,8 +1234,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1417,14 +1245,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1445,8 +1270,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1458,14 +1281,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1486,8 +1306,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1499,14 +1317,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1527,8 +1342,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1540,14 +1353,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1568,8 +1378,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1581,14 +1389,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1609,8 +1414,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1622,14 +1425,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1650,8 +1450,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1663,14 +1461,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1691,8 +1486,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1704,14 +1497,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1732,8 +1522,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1745,14 +1533,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1773,8 +1558,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1786,14 +1569,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1814,8 +1594,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1827,14 +1605,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1855,8 +1630,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1868,14 +1641,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1896,8 +1666,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1909,14 +1677,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1937,8 +1702,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1950,14 +1713,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -1978,8 +1738,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -1991,14 +1749,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2019,8 +1774,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2032,14 +1785,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2060,8 +1810,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2073,14 +1821,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2101,8 +1846,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2114,14 +1857,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2142,8 +1882,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2155,14 +1893,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2183,8 +1918,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2196,14 +1929,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2224,8 +1954,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2237,14 +1965,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2265,8 +1990,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2278,14 +2001,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2306,8 +2026,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2319,14 +2037,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2347,8 +2062,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2360,14 +2073,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2388,8 +2098,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2401,14 +2109,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2429,8 +2134,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2442,14 +2145,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2470,8 +2170,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2483,14 +2181,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2511,8 +2206,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2524,14 +2217,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2552,8 +2242,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2565,14 +2253,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2593,8 +2278,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2606,14 +2289,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2634,8 +2314,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2647,14 +2325,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2675,8 +2350,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2688,14 +2361,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2716,8 +2386,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2729,14 +2397,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2757,8 +2422,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2770,14 +2433,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2798,8 +2458,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2811,14 +2469,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2839,8 +2494,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2852,14 +2505,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2880,8 +2530,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2893,14 +2541,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2921,8 +2566,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2934,14 +2577,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -2962,8 +2602,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -2975,14 +2613,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3003,8 +2638,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3016,14 +2649,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3044,8 +2674,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3057,14 +2685,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3085,8 +2710,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3098,14 +2721,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3126,8 +2746,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3139,14 +2757,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3167,8 +2782,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3180,14 +2793,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3208,8 +2818,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3221,14 +2829,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3249,8 +2854,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3262,14 +2865,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3290,8 +2890,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3303,14 +2901,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3331,8 +2926,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3344,14 +2937,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3372,8 +2962,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3385,14 +2973,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3413,8 +2998,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3426,14 +3009,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3454,8 +3034,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3467,14 +3045,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3495,8 +3070,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3508,14 +3081,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3536,8 +3106,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3549,14 +3117,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3577,8 +3142,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3590,14 +3153,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3618,8 +3178,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3631,14 +3189,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3659,8 +3214,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3672,14 +3225,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3700,8 +3250,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3713,14 +3261,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3741,8 +3286,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3754,14 +3297,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3782,8 +3322,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3795,14 +3333,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3823,8 +3358,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3836,14 +3369,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3864,8 +3394,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3877,14 +3405,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3905,8 +3430,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3918,14 +3441,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3946,8 +3466,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -3959,14 +3477,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -3987,8 +3502,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4000,14 +3513,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4028,8 +3538,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4041,14 +3549,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4069,8 +3574,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4082,14 +3585,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4110,8 +3610,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4123,14 +3621,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4151,8 +3646,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4164,14 +3657,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4192,8 +3682,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4205,14 +3693,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4233,8 +3718,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4246,14 +3729,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4274,8 +3754,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4287,14 +3765,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4315,8 +3790,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4328,14 +3801,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4356,8 +3826,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4369,14 +3837,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4397,8 +3862,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4410,14 +3873,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4438,8 +3898,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4451,14 +3909,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4479,8 +3934,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4492,14 +3945,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4520,8 +3970,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4533,14 +3981,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4561,8 +4006,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4574,14 +4017,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4602,8 +4042,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4615,14 +4053,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4643,8 +4078,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4656,14 +4089,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4684,8 +4114,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4697,14 +4125,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4725,8 +4150,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4738,14 +4161,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4766,8 +4186,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4779,14 +4197,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4807,8 +4222,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4820,14 +4233,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4848,8 +4258,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4861,14 +4269,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4889,8 +4294,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4902,14 +4305,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4930,8 +4330,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4943,14 +4341,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -4971,8 +4366,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -4984,14 +4377,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5012,8 +4402,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5025,14 +4413,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5053,8 +4438,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5066,14 +4449,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5094,8 +4474,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5107,14 +4485,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5135,8 +4510,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5148,14 +4521,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5176,8 +4546,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5189,14 +4557,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5217,8 +4582,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5230,14 +4593,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5258,8 +4618,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5271,14 +4629,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5299,8 +4654,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5312,14 +4665,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5340,8 +4690,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5353,14 +4701,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5381,8 +4726,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5394,14 +4737,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5422,8 +4762,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5435,14 +4773,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5463,8 +4798,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5476,14 +4809,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5504,8 +4834,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5517,14 +4845,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5545,8 +4870,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5558,14 +4881,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5586,8 +4906,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5599,14 +4917,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5627,8 +4942,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5640,14 +4953,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5668,8 +4978,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5681,14 +4989,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5709,8 +5014,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5722,14 +5025,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5750,8 +5050,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5763,14 +5061,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5791,8 +5086,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5804,14 +5097,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5832,8 +5122,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5845,14 +5133,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5873,8 +5158,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5886,14 +5169,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5914,8 +5194,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5927,14 +5205,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5955,8 +5230,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -5968,14 +5241,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -5996,8 +5266,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6009,14 +5277,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6037,8 +5302,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6050,14 +5313,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6078,8 +5338,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6091,14 +5349,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6119,8 +5374,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6132,14 +5385,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6160,8 +5410,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6173,14 +5421,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6201,8 +5446,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6214,14 +5457,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6242,8 +5482,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6255,14 +5493,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6283,8 +5518,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6296,14 +5529,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6324,8 +5554,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6337,14 +5565,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6365,8 +5590,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6378,14 +5601,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6406,8 +5626,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6419,14 +5637,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6447,8 +5662,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6460,14 +5673,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6488,8 +5698,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6501,14 +5709,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6529,8 +5734,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6542,14 +5745,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6570,8 +5770,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6583,14 +5781,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6611,8 +5806,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6624,14 +5817,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6652,8 +5842,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6665,14 +5853,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6693,8 +5878,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6706,14 +5889,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6734,8 +5914,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6747,14 +5925,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6775,8 +5950,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6788,14 +5961,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6816,8 +5986,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6829,14 +5997,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6857,8 +6022,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6870,14 +6033,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6898,8 +6058,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6911,14 +6069,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6939,8 +6094,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6952,14 +6105,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -6980,8 +6130,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -6993,14 +6141,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7021,8 +6166,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7034,14 +6177,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7062,8 +6202,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7075,14 +6213,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7103,8 +6238,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7116,14 +6249,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7144,8 +6274,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7157,14 +6285,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7185,8 +6310,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7198,14 +6321,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7226,8 +6346,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7239,14 +6357,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7267,8 +6382,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7280,14 +6393,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7308,8 +6418,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7321,14 +6429,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7349,8 +6454,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7362,14 +6465,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7390,8 +6490,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7403,14 +6501,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7431,8 +6526,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7444,14 +6537,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7472,8 +6562,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7485,14 +6573,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7513,8 +6598,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7526,14 +6609,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7554,8 +6634,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7567,14 +6645,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7595,8 +6670,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7608,14 +6681,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7636,8 +6706,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7649,14 +6717,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7677,8 +6742,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7690,14 +6753,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7718,8 +6778,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7731,14 +6789,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7759,8 +6814,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7772,14 +6825,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7800,8 +6850,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7813,14 +6861,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7841,8 +6886,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7854,14 +6897,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7882,8 +6922,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7895,14 +6933,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7923,8 +6958,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7936,14 +6969,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -7964,8 +6994,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -7977,14 +7005,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8005,8 +7030,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8018,14 +7041,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8046,8 +7066,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8059,14 +7077,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8087,8 +7102,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8100,14 +7113,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8128,8 +7138,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8141,14 +7149,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8169,8 +7174,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8182,14 +7185,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8210,8 +7210,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8223,14 +7221,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8251,8 +7246,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8264,14 +7257,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8292,8 +7282,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8305,14 +7293,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8333,8 +7318,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8346,14 +7329,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8374,8 +7354,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8387,14 +7365,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8415,8 +7390,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8428,14 +7401,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8456,8 +7426,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8469,14 +7437,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8497,8 +7462,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8510,14 +7473,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8538,8 +7498,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8551,14 +7509,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8579,8 +7534,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8592,14 +7545,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8620,8 +7570,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8633,14 +7581,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8661,8 +7606,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8674,14 +7617,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8702,8 +7642,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8715,14 +7653,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8743,8 +7678,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8756,14 +7689,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8784,8 +7714,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8797,14 +7725,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8825,8 +7750,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8838,14 +7761,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8866,8 +7786,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8879,14 +7797,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8907,8 +7822,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8920,14 +7833,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8948,8 +7858,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -8961,14 +7869,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -8989,8 +7894,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9002,14 +7905,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9030,8 +7930,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9043,14 +7941,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9071,8 +7966,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9084,14 +7977,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9112,8 +8002,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9125,14 +8013,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9153,8 +8038,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9166,14 +8049,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9194,8 +8074,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9207,14 +8085,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9235,8 +8110,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9248,14 +8121,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9276,8 +8146,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9289,14 +8157,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9317,8 +8182,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9330,14 +8193,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9358,8 +8218,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9371,14 +8229,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9399,8 +8254,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9412,14 +8265,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9440,8 +8290,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9453,14 +8301,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9481,8 +8326,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9494,14 +8337,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9522,8 +8362,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9535,14 +8373,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9563,8 +8398,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9576,14 +8409,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9604,8 +8434,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9617,14 +8445,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9645,8 +8470,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9658,14 +8481,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9686,8 +8506,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9699,14 +8517,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9727,8 +8542,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9740,14 +8553,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9768,8 +8578,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9781,14 +8589,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9809,8 +8614,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9822,14 +8625,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9850,8 +8650,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9863,14 +8661,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9891,8 +8686,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9904,14 +8697,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9932,8 +8722,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9945,14 +8733,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -9973,8 +8758,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -9986,14 +8769,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10014,8 +8794,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10027,14 +8805,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10055,8 +8830,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10068,14 +8841,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10096,8 +8866,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10109,14 +8877,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10137,8 +8902,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10150,14 +8913,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10178,8 +8938,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10191,14 +8949,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10219,8 +8974,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10232,14 +8985,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10260,8 +9010,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10273,14 +9021,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10301,8 +9046,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10314,14 +9057,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10342,8 +9082,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10355,14 +9093,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10383,8 +9118,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10396,14 +9129,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10424,8 +9154,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10437,14 +9165,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10465,8 +9190,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10478,14 +9201,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10506,8 +9226,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10519,14 +9237,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10547,8 +9262,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10560,14 +9273,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10588,8 +9298,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10601,14 +9309,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10629,8 +9334,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10642,14 +9345,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10670,8 +9370,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10683,14 +9381,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10711,8 +9406,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10724,14 +9417,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10752,8 +9442,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10765,14 +9453,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10793,8 +9478,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10806,14 +9489,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10834,8 +9514,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10847,14 +9525,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10875,8 +9550,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10888,14 +9561,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10916,8 +9586,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10929,14 +9597,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10957,8 +9622,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -10970,14 +9633,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -10998,8 +9658,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11011,14 +9669,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11039,8 +9694,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11052,14 +9705,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11080,8 +9730,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11093,14 +9741,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11121,8 +9766,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11134,14 +9777,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11162,8 +9802,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11175,14 +9813,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11203,8 +9838,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11216,14 +9849,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11244,8 +9874,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11257,14 +9885,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11285,8 +9910,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11298,14 +9921,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11326,8 +9946,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11339,14 +9957,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11367,8 +9982,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11380,14 +9993,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11408,8 +10018,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11421,14 +10029,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11449,8 +10054,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11462,14 +10065,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11490,8 +10090,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11503,14 +10101,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11531,8 +10126,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11544,14 +10137,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11572,8 +10162,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11585,14 +10173,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11613,8 +10198,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11626,14 +10209,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11654,8 +10234,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11667,14 +10245,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11695,8 +10270,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11708,14 +10281,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11736,8 +10306,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11749,14 +10317,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11777,8 +10342,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11790,14 +10353,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11818,8 +10378,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11831,14 +10389,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11859,8 +10414,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11872,14 +10425,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11900,8 +10450,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11913,14 +10461,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11941,8 +10486,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11954,14 +10497,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -11982,8 +10522,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -11995,14 +10533,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12023,8 +10558,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12036,14 +10569,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12064,8 +10594,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12077,14 +10605,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12105,8 +10630,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12118,14 +10641,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12146,8 +10666,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12159,14 +10677,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12187,8 +10702,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12200,14 +10713,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12228,8 +10738,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12241,14 +10749,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12269,8 +10774,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12282,14 +10785,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
@@ -12310,8 +10810,6 @@ html , body {
 	margin: 5px;
 	display: block;
 	padding: 15px;
-	-*-box-flex: 1;
-	-*-box-sizing: border-box;
 }
 
 /*
@@ -12323,14 +10821,11 @@ html , body {
 }
 body {
 	background-color: #f7f7f7;
-	display: -*-box;
 
 	.modal {
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
 
 		@generic {
 			width: 500px;
