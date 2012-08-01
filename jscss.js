@@ -41,10 +41,13 @@ var jscss = (function(){
 	return jscss;
 	
 	function jscss ( str , compile , type ) {
-		var root;
+		var root ,
+			useFlag = compile ,
+			compiled = false;
 
 		// from object code ( fast )
 		if ( str instanceof Object ) {
+			useFlag = true;
 			root = str;
 		}
 		// from string ( normal )
@@ -65,11 +68,12 @@ var jscss = (function(){
 		// use jscss as compiler and it return "Object code"
 		if ( compile ) {
 			minimize( root );
+			compiled = JSON.stringify( root );
 		}
 
 		// tree to str
 		var style = document.createElement( 'style' ),
-			result = tree2str( root );
+			result = tree2str( root , false , useFlag );
 
 		style.type = type || 'text/css';
 
@@ -81,10 +85,7 @@ var jscss = (function(){
 			style.styleSheet.cssText = result;
 		}
 
-		// use jscss as compiler and it return "Object code"
-		if ( compile ) {
-			return JSON.stringify( root );
-		}
+		return compiled;
 	}
 
 	function process ( str , parent , hash ) {
@@ -173,22 +174,22 @@ var jscss = (function(){
 			definition = definition.replace( regExtend , function ( a , m ) {
 				var c = parent ,
 					i ,
-					selectors = rule.selectors;
+					selectors;
 
 				while ( c ) {
-					for ( i = 0; i < c.children.length; i++ ) {
-						if ( c.children[ i ].name == m ) {
-							c.children[ i ].selectors = c.children[ i ].selectors.concat( selectors );
-							return '';
-						}
-					}
-
 					if ( c.parent ) {
 						selectors = selectorMix( c.selectors , selectors );
 						c = c.parent;
 					}
 					else {
 						throw 'extend faild';
+					}
+
+					for ( i = 0; i < c.children.length; i++ ) {
+						if ( c.children[ i ].name == m ) {
+							c.children[ i ].selectors = c.children[ i ].selectors.concat( selectors );
+							return '';
+						}
 					}
 				}
 			} );
@@ -224,7 +225,7 @@ var jscss = (function(){
 		return r;
 	}
 
-	function tree2str ( tree , parent ) {
+	function tree2str ( tree , parent , useFlag ) {
 		// mixin selectors
 		if ( parent ) {
 			tree.selectors = selectorMix( parent.selectors , tree.selectors );
@@ -234,7 +235,7 @@ var jscss = (function(){
 		var i = 0 , str = '' , definition = tree.definition;
 		if ( tree.selectors.length && definition ) {
 			// vendor prefix
-			if ( tree.vendorPrefixProp ) {
+			if ( !useFlag || tree.vendorPrefixProp ) {
 				definition = definition.replace( regVendorPrefixProp , function ( a , prop , val ) {
 					if ( vendorPrefix ) {
 						return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
@@ -242,7 +243,7 @@ var jscss = (function(){
 					return '';
 				} );
 			}
-			if ( tree.vendorPrefixVal ) {
+			if ( !useFlag || tree.vendorPrefixVal ) {
 				definition = definition.replace( regVendorPrefixVal , function ( a , prop , val ) {
 					if ( vendorPrefix ) {
 						return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
@@ -252,7 +253,7 @@ var jscss = (function(){
 			}
 
 			// enhance
-			if ( tree.enhance ) {
+			if ( !useFlag ||  tree.enhance ) {
 				definition = definition.replace( regEnhance , function ( a , m ) {
 					if ( vendorPrefix ) {
 						return m;
@@ -267,7 +268,7 @@ var jscss = (function(){
 		// child
 		if( tree.children ) {
 			for ( ; i < tree.children.length; i++ ) {
-				str += tree2str( tree.children[ i ] , tree );
+				str += tree2str( tree.children[ i ] , tree , useFlag );
 			}
 		}
 
