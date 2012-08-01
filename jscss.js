@@ -173,8 +173,8 @@ var jscss = (function(){
 			// extend
 			definition = definition.replace( regExtend , function ( a , m ) {
 				var c = parent ,
-					i ,
-					selectors;
+					selectors = rule.selectors ,
+					i ;
 
 				while ( c ) {
 					if ( c.parent ) {
