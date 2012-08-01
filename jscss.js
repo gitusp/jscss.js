@@ -64,7 +64,7 @@ var jscss = (function(){
 
 		// use jscss as compiler and it return "Object code"
 		if ( compile ) {
-			killParent( root );
+			minimize( root );
 			return JSON.stringify( root );
 		}
 	}
@@ -251,11 +251,12 @@ var jscss = (function(){
 		return str;
 	}
 
-	function killParent ( tree ) {
+	function minimize ( tree ) {
+		delete tree.name;
 		delete tree.parent;
 		if ( tree.children ) {
 			for ( var i = 0; i < tree.children.length; i++ ) {
-				killParent( tree.children[ i ] );
+				minimize( tree.children[ i ] );
 			}
 		}
 	}
