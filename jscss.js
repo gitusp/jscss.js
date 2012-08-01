@@ -26,17 +26,27 @@ var jscss = (function(){
 
 	return jscss;
 	
-	function jscss ( str ) {
-		// remove comment
-		str = str.replace( /\/\*[\s\S]*?\*\//mg , '' );
-		str = str.replace( /\/\/.*/g , '' );
+	function jscss ( str , compile ) {
+		var root;
 
-		// treeize
-		var root = {
+		// from object code ( fast )
+		if ( str instanceof Object ) {
+			root = str;
+		}
+		// from string ( normal )
+		else {
+			root = {
 				selectors : [ '' ] ,
 				children : [] 
 			};
-		process( str , root , {} );
+
+			// remove comment
+			str = str.replace( /\/\*[\s\S]*?\*\//mg , '' );
+			str = str.replace( /\/\/.*/g , '' );
+			
+			// treeize
+			process( str , root , {} );
+		}
 
 		// tree to str
 		var style = document.createElement( 'style' ),
@@ -50,30 +60,11 @@ var jscss = (function(){
 			style.styleSheet.cssText = result;
 		}
 
-		return result;
-	}
-
-	function tree2str ( tree ) {
-		// mixin selectors
-		if ( tree.parent ) {
-			tree.selectors = selectorMix( tree.parent.selectors , tree.selectors );
+		// use jscss as compiler and it return "Object code"
+		if ( compile ) {
+			killParent( root );
+			return JSON.stringify( root );
 		}
-
-		// print
-		var i = 0 , str = '';
-		if ( tree.selectors.length && tree.definition ) {
-			str += tree.selectors.join( ',' ) + '{' + tree.definition + '}\n';
-		}
-
-		// child
-		if( tree.children ) {
-			for ( ; i < tree.children.length; i++ ) {
-				str += tree2str( tree.children[ i ] );
-			}
-		}
-
-		// result
-		return str;
 	}
 
 	function process ( str , parent , hash ) {
@@ -188,28 +179,6 @@ var jscss = (function(){
 				return '';
 			} );
 
-			// vendor prefix
-			definition = definition.replace( /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g , function ( a , prop , val ) {
-				if ( vendorPrefix ) {
-					return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
-				}
-				return '';
-			} );
-			definition = definition.replace( /([^:;]*?)\s*:\s*-\*-([^:;]*?)\s*;/g , function ( a , prop , val ) {
-				if ( vendorPrefix ) {
-					return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
-				}
-				return '';
-			} );
-
-			// enhance
-			definition = definition.replace( /\+\+(.*?;)/g , function ( a , m ) {
-				if ( vendorPrefix ) {
-					return m;
-				}
-				return '';
-			} );
-
 			rule.definition = definition;
 			rule.parent = parent;
 
@@ -233,5 +202,59 @@ var jscss = (function(){
 			}
 		}
 		return r;
+	}
+
+	function tree2str ( tree , parent ) {
+		// mixin selectors
+		if ( parent ) {
+			tree.selectors = selectorMix( parent.selectors , tree.selectors );
+		}
+
+		// print
+		var i = 0 , str = '';
+		if ( tree.selectors.length && tree.definition ) {
+			// vendor prefix
+			tree.definition = tree.definition.replace( /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g , function ( a , prop , val ) {
+				if ( vendorPrefix ) {
+					return prop + ':' + val + ';' + vendorPrefix + prop + ':' + val + ';';
+				}
+				return '';
+			} );
+			tree.definition = tree.definition.replace( /([^:;]*?)\s*:\s*-\*-([^:;]*?)\s*;/g , function ( a , prop , val ) {
+				if ( vendorPrefix ) {
+					return prop + ':' + val + ';' + prop + ':' + vendorPrefix + val + ';';
+				}
+				return '';
+			} );
+
+			// enhance
+			tree.definition = tree.definition.replace( /\+\+(.*?;)/g , function ( a , m ) {
+				if ( vendorPrefix ) {
+					return m;
+				}
+				return '';
+			} );
+
+			str += tree.selectors.join( ',' ) + '{' + tree.definition + '}\n';
+		}
+
+		// child
+		if( tree.children ) {
+			for ( ; i < tree.children.length; i++ ) {
+				str += tree2str( tree.children[ i ] , tree );
+			}
+		}
+
+		// result
+		return str;
+	}
+
+	function killParent ( tree ) {
+		delete tree.parent;
+		if ( tree.children ) {
+			for ( var i = 0; i < tree.children.length; i++ ) {
+				killParent( tree.children[ i ] );
+			}
+		}
 	}
 })();

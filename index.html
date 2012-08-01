@@ -78,7 +78,7 @@ var tpl = document.getElementById( 'testcss' ).innerHTML,
 	result = jscss( tpl ),
 	d2 = new Date;
 document.getElementById( 'before' ).value = '**** before ****\n\n' + tpl;
-document.getElementById( 'after' ).value = '**** after ( processed by jscss ; ' + ( d2 - d1 ) + 'msec ) ****\n\n' + result;
+document.getElementById( 'after' ).value = '**** after ( processed by jscss ; ' + ( d2 - d1 ) + 'msec ) ****\n\n' + document.getElementsByTagName( 'style' )[ 0 ].innerHTML;
 ;
 
 </script>
