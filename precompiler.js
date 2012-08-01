@@ -1,8 +1,6 @@
-var jscss = require( './jscss' );
+var jscss = require( './jscss' ),
+	fs = require('fs'),
+    str = fs.readFileSync('/dev/stdin').toString();
 
-process.stdin.resume();
-
-process.stdin.on('data', function ( chunk ) {
-	var result = jscss.compile( chunk );
-	process.stdout.write( result );
-});
+str = jscss.compile( str );
+process.stdout.write( str );

@@ -5,7 +5,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  */
 var jscss = (function(){
-	var ua = typeof navigator !== 'undefined' ? navigator.userAgent : '',
+	var ua = typeof navigator != 'undefined' ? navigator.userAgent : '',
 		vendorPrefix = false,
 		oldIE = false,
 		
@@ -303,7 +303,7 @@ var jscss = (function(){
 })();
 
 // for nodeJS
-if ( typeof exports !== 'undefined' ) {
+if ( typeof exports != 'undefined' ) {
 	exports.compile = function ( str ) {
 		return jscss( str , true , true );
 	};
