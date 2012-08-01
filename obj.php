@@ -6,9 +6,9 @@
 <script src="jscss.js"></script>
 <script type="text/javascript">
 
-var tpl = <?php include( 'test.obj' ); ?> ,
+var tpl = <?php include( './compiled.obj' ); ?> ,
 	d1 = new Date,
-	result = jscss( tpl , false , 'test/css' ),
+	result = jscss( tpl , false , true ),
 	d2 = new Date;
 
 document.write( ( d2 - d1 ) + 'msec' );

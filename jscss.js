@@ -5,7 +5,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  */
 var jscss = (function(){
-	var ua = navigator.userAgent,
+	var ua = typeof navigator !== 'undefined' ? navigator.userAgent : '',
 		vendorPrefix = false,
 		oldIE = false,
 		
@@ -40,7 +40,7 @@ var jscss = (function(){
 
 	return jscss;
 	
-	function jscss ( str , compile , type ) {
+	function jscss ( str , compile , dry ) {
 		var root ,
 			useFlag = compile ,
 			compiled = false;
@@ -72,17 +72,20 @@ var jscss = (function(){
 		}
 
 		// tree to str
-		var style = document.createElement( 'style' ),
-			result = tree2str( root , false , useFlag );
+		var result = tree2str( root , false , useFlag );
 
-		style.type = type || 'text/css';
+		// append to head
+		if ( !dry ) {
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
 
-		if ( !oldIE ) {
-			style.innerHTML = result;
-		}
-		document.getElementsByTagName( 'head' )[ 0 ].appendChild( style );
-		if ( oldIE ) {
-			style.styleSheet.cssText = result;
+			if ( !oldIE ) {
+				style.innerHTML = result;
+			}
+			document.getElementsByTagName( 'head' )[ 0 ].appendChild( style );
+			if ( oldIE ) {
+				style.styleSheet.cssText = result;
+			}
 		}
 
 		return compiled;
@@ -173,8 +176,8 @@ var jscss = (function(){
 			// extend
 			definition = definition.replace( regExtend , function ( a , m ) {
 				var c = parent ,
-					i ,
-					selectors;
+					selectors = rule.selectors ,
+					i ;
 
 				while ( c ) {
 					if ( c.parent ) {
@@ -298,3 +301,10 @@ var jscss = (function(){
 		}
 	}
 })();
+
+// for nodeJS
+if ( typeof exports !== 'undefined' ) {
+	exports.compile = function ( str ) {
+		return jscss( str , true , true );
+	};
+}
