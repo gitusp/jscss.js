@@ -205,10 +205,10 @@ var jscss = (function(){
 
 			rule.definition = definition;
 			rule.parent = parent;
+			rule.children = [];
 
 			// inner block
 			if ( inner ) {
-				rule.children = [];
 				process( inner , rule , hash );
 			}
 
@@ -269,10 +269,8 @@ var jscss = (function(){
 		}
 
 		// child
-		if( tree.children ) {
-			for ( ; i < tree.children.length; i++ ) {
-				str += tree2str( tree.children[ i ] , tree , useFlag );
-			}
+		for ( ; i < tree.children.length; i++ ) {
+			str += tree2str( tree.children[ i ] , tree , useFlag );
 		}
 
 		// result
@@ -294,10 +292,8 @@ var jscss = (function(){
 		}
 
 		// continue
-		if ( tree.children ) {
-			for ( var i = 0; i < tree.children.length; i++ ) {
-				minimize( tree.children[ i ] );
-			}
+		for ( var i = 0; i < tree.children.length; i++ ) {
+			minimize( tree.children[ i ] );
 		}
 	}
 })();
