@@ -17,4 +17,5 @@ var tpl = document.getElementById( 'testcss' ).innerHTML,
 document.write( ( d2 - d1 ) + 'msec' );
 
 </script>
+</body>
 </html>

@@ -9,6 +9,7 @@
 		http = new XMLHttpRequest;
 
 	for ( ; i < links.length; i++ ) {
+		// from string
 		if ( links[ i ].type == 'text/jscss' ) {
 			// sync load from "cache"
 			http.open( 'GET' , links[ i ].href , false );
@@ -18,8 +19,21 @@
 			// cut from head
 			links[ i ].parentNode.removeChild( links[ i ] );
 		}
+
+		// from obj
+		if ( links[ i ].type == 'text/jsobj' ) {
+			// sync load from "cache"
+			http.open( 'GET' , links[ i ].href , false );
+			http.send(null);
+			jscss( JSON.parse( http.responseText ) );
+
+			// cut from head
+			links[ i ].parentNode.removeChild( links[ i ] );
+		}
 	}
 
-	// compile
-	jscss( modules );
+	// from str
+	if ( modules ) {
+		jscss( modules );
+	}
 })();
