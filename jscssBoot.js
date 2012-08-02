@@ -21,7 +21,7 @@
 		}
 
 		// from obj
-		if ( links[ i ].type == 'text/jsobj' ) {
+		else if ( links[ i ].type == 'text/jsobj' ) {
 			// sync load from "cache"
 			http.open( 'GET' , links[ i ].href , false );
 			http.send(null);
