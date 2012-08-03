@@ -3,6 +3,7 @@
 <head></head>
 <body>
 
+<script src="lib/client.js"></script>
 <script src="jscss.js"></script>
 <script type="text/javascript">
 

@@ -3,11 +3,14 @@
  *
  * Copyright 2012, usp
  * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * the library requires "client.js"
+ * https://github.com/uspDev/client.js
  */
 var jscss = (function(){
 	var ua = typeof navigator != 'undefined' ? navigator.userAgent : '',
-		vendorPrefix = false,
-		oldIE = false,
+		vendorPrefix = client.getVendorPrefix(),
+		needCssText = client.needCssText(),
 		
 		// regexp
 		regVendorPrefixProp = /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g,
@@ -22,21 +25,6 @@ var jscss = (function(){
 		regExtendDef = /@(\S*)/,
 		regScope = /~(\S*?);/g,
 		regScopeDef = /~(\S*)/;
-
-	if ( /Firefox\/(\d+)/.test( ua ) ) { 
-		if ( RegExp.$1 >= 4 ) { 
-			vendorPrefix = '-moz-';
-		}   
-	}   
-	else if ( ua.indexOf( 'AppleWebKit' ) != -1 ) { 
-		vendorPrefix = '-webkit-';
-	}   
-	else if ( /MSIE (7|8)/.test( ua ) ) { 
-		oldIE = true;
-	}
-	else if ( ua.indexOf( 'MSIE 9' ) != -1 ) { 
-		vendorPrefix = '-ms-';
-	}
 
 	return jscss;
 	
@@ -79,11 +67,11 @@ var jscss = (function(){
 			var style = document.createElement( 'style' );
 			style.type = 'text/css';
 
-			if ( !oldIE ) {
+			if ( !needCssText ) {
 				style.innerHTML = result;
 			}
 			document.getElementsByTagName( 'head' )[ 0 ].appendChild( style );
-			if ( oldIE ) {
+			if ( needCssText ) {
 				style.styleSheet.cssText = result;
 			}
 		}

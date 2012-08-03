@@ -6,6 +6,7 @@
 <script type="text/x-css" name="testcss" id="testcss">
 <?php include( './manyrules.jscss' ); ?>
 </script>
+<script src="lib/client.js"></script>
 <script src="jscss.js"></script>
 <script type="text/javascript">
 
