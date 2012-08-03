@@ -168,19 +168,22 @@ var jscss = (function(){
 					i ;
 
 				while ( c ) {
+					for ( i = 0; i < c.children.length; i++ ) {
+						if ( c.children[ i ] == rule ) {
+							continue;
+						}
+						if ( c.children[ i ].name == m ) {
+							c.children[ i ].selectors = c.children[ i ].selectors.concat( selectors );
+							return '';
+						}
+					}
+
 					if ( c.parent ) {
 						selectors = selectorMix( c.selectors , selectors );
 						c = c.parent;
 					}
 					else {
 						throw 'extend faild';
-					}
-
-					for ( i = 0; i < c.children.length; i++ ) {
-						if ( c.children[ i ].name == m ) {
-							c.children[ i ].selectors = c.children[ i ].selectors.concat( selectors );
-							return '';
-						}
 					}
 				}
 			} );
