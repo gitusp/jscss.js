@@ -9,8 +9,8 @@
  */
 var jscss = (function(){
 	var ua = typeof navigator != 'undefined' ? navigator.userAgent : '',
-		vendorPrefix = client.getVendorPrefix(),
-		needCssText = client.needCssText(),
+		vendorPrefix = typeof client != 'undefined' ? client.getVendorPrefix() : false,
+		needCssText = typeof client != 'undefined' ? client.needCssText() : false,
 		
 		// regexp
 		regVendorPrefixProp = /-\*-([^:;]*?)\s*:\s*([^:;]*?)\s*;/g,
