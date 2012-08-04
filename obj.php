@@ -14,6 +14,7 @@ var tpl = <?php include( './compiled.obj' ); ?> ,
 
 document.write( ( d2 - d1 ) + 'msec' );
 
+
 </script>
 </body>
 </html>
