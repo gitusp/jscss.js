@@ -14,6 +14,10 @@ html , body {
 	width: 100%;
 	font-size: 12px;
 }
+body {
+	background-color: #f7f7f7;
+	display: -*-box;
+}
 #before , #after {
 	width: 200px;
 	background: #fff;
@@ -27,21 +31,25 @@ html , body {
 /*
  *	sample css
  */
-
-@ggg { // extend definition
-	background:url(ginza.png);
+@extended {
+	background: url(extended.png);
+	color: red;
 }
-body {
-	background-color: #f7f7f7;
-	display: -*-box;
+.sampleClass {
+	@extended;
 
-	.modal {
-		~scope01;	// the scope marked as "scope01"
+	&.loggedIn {
+		// the scope marked as "loggedIn"
+		~loggedIn;
 
 		position: absolute;
 		border: 2px solid orange;
-		++border: none; // css progressive enhance support
-		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2) ; // wild card vendor prefix support
+
+		// css progressive enhance support
+		++border: none;
+
+		// wild card vendor prefix support
+		-*-box-shadow: 0 1px 2px rgba( 0 , 0 , 0 , .2);
 
 		@generic {
 			width: 500px;
@@ -49,23 +57,25 @@ body {
 	}
 }
 
-~scope01 { // the scope extracted in "scope01"
-	@ggg;
-	background: white;
-
-	&.login {
-		.content {
-			@generic;
-			background: red;
-		}
+// the scope will be extracted in "loggedIn"
+~loggedIn {
+	&.adminUser {
+		background: black;
 	}
 }
 
-~scope01 { // the scope extracted in "scope01"
-	&.register {
-		.content {
+.yourMenu {
+	@extended;
+
+	// the scope inherit parents
+	~loggedIn {
+		.label {
+			// refs class in other scope
 			@generic;
-			background: blue;
+			@extended;
+		}
+		&.fromJapan {
+			background: url(hinomaru.png);
 		}
 	}
 }

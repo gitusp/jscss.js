@@ -124,17 +124,34 @@ var jscss = (function(){
 			rest = str.substr( end + 1 );
 
 			// process selector
+			// extend
 			if ( selector.search( regExtendDef ) != -1 ) {
 				rule.name = RegExp.$1;
 				rule.selectors = [];
+				rule.parent = parent;
 			}
+			// scope
 			else if ( selector.search( regScopeDef ) != -1 ) {
-				rule.selectors = [ '&' ];
-				parent = hash[ RegExp.$1 ];
-				if ( !parent ) {
+				// mixin ancestors' selectors
+				rule.selectors = (function () {
+					var c = parent,
+						selectors = [ '&' ];
+
+					while ( c.parent ) {
+						selectors = selectorMix( c.selectors , selectors );
+						c = c.parent;
+					}
+
+					return selectors;
+				})();
+
+				// set him at new scope
+				rule.parent = hash[ RegExp.$1 ];
+				if ( !rule.parent ) {
 					throw 'no parent';
 				}
 			}
+			// normal
 			else {
 				selector = selector.replace( regSpaces , ' ' );
 				selector = selector.replace( regSpaceHead , '' );
@@ -142,6 +159,7 @@ var jscss = (function(){
 				selector = selector.replace( regSpaceCommas , ',' );
 				selector = selector.replace( regCommaTail , '' );
 				rule.selectors = selector.split( ',' );
+				rule.parent = parent;
 			}
 
 			// process block
@@ -163,7 +181,7 @@ var jscss = (function(){
 
 			// extend
 			definition = definition.replace( regExtend , function ( a , m ) {
-				var c = parent ,
+				var c = rule.parent ,
 					selectors = rule.selectors ,
 					i ;
 
@@ -195,7 +213,6 @@ var jscss = (function(){
 			} );
 
 			rule.definition = definition;
-			rule.parent = parent;
 			rule.children = [];
 
 			// inner block
@@ -204,7 +221,7 @@ var jscss = (function(){
 			}
 
 			// continue...
-			parent.children.push( rule );
+			rule.parent.children.push( rule );
 			process( rest , parent , hash );
 		}
 	}
