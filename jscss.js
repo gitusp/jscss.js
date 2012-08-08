@@ -40,10 +40,7 @@ var jscss = (function(){
 		}
 		// from string ( normal )
 		else {
-			root = {
-				selectors : [ '' ] ,
-				children : [] 
-			};
+			root = { selectors : [ '' ] };
 
 			// remove comment
 			str = str.replace( /\/\*[\s\S]*?\*\//mg , '' );
@@ -186,13 +183,15 @@ var jscss = (function(){
 					i ;
 
 				while ( c ) {
-					for ( i = 0; i < c.children.length; i++ ) {
-						if ( c.children[ i ] == rule ) {
-							continue;
-						}
-						if ( c.children[ i ].name == m ) {
-							c.children[ i ].selectors = c.children[ i ].selectors.concat( selectors );
-							return '';
+					if ( c.children ) {
+						for ( i = 0; i < c.children.length; i++ ) {
+							if ( c.children[ i ] == rule ) {
+								continue;
+							}
+							if ( c.children[ i ].name == m ) {
+								c.children[ i ].selectors = c.children[ i ].selectors.concat( selectors );
+								return '';
+							}
 						}
 					}
 
@@ -213,7 +212,6 @@ var jscss = (function(){
 			} );
 
 			rule.definition = definition;
-			rule.children = [];
 
 			// inner block
 			if ( inner ) {
@@ -221,6 +219,9 @@ var jscss = (function(){
 			}
 
 			// continue...
+			if ( !rule.parent.children ) {
+				rule.parent.children = [];
+			}
 			rule.parent.children.push( rule );
 			process( rest , parent , hash );
 		}
@@ -277,8 +278,10 @@ var jscss = (function(){
 		}
 
 		// child
-		for ( ; i < tree.children.length; i++ ) {
-			str += tree2str( tree.children[ i ] , tree , useFlag );
+		if ( tree.children ) {
+			for ( ; i < tree.children.length; i++ ) {
+				str += tree2str( tree.children[ i ] , tree , useFlag );
+			}
 		}
 
 		// result
@@ -300,8 +303,10 @@ var jscss = (function(){
 		}
 
 		// continue
-		for ( var i = 0; i < tree.children.length; i++ ) {
-			minimize( tree.children[ i ] );
+		if ( tree.children ) {
+			for ( var i = 0; i < tree.children.length; i++ ) {
+				minimize( tree.children[ i ] );
+			}
 		}
 	}
 })();
