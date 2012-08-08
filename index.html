@@ -34,6 +34,14 @@ body {
 @extended {
 	background: url(extended.png);
 	color: red;
+
+	.child {
+		font-size: 16px;
+	}
+	&:hover {
+		position: relative;
+		top: -2px;
+	}
 }
 .sampleClass {
 	@extended;
